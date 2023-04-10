@@ -1,11 +1,5 @@
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
     border-bottom: 0.01rem solid black;
-    padding: 0.5rem;
 }
 
 h1{
@@ -18,22 +12,43 @@ h1{
 
 h2{
     font-size: 1.5rem;
-    align-self: center;   
+    align-self: center;
+    margin-left: 1rem;
+    position: relative;  
+}
+
+h3{
+    font-size: 1rem;
+    align-self: flex-start;
+    position: relative;   
 }
 
 .informacoes{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 0.01rem solid black;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .perfil{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.dados{
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    position: relative;
+    padding: 1rem;
+    align-content: center;
+}
+
+.punicoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 1rem;
     align-content: center;
 }
