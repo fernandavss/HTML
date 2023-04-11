@@ -12,15 +12,10 @@ h1{
 
 h2{
     font-size: 1.5rem;
-    align-self: center;
-    margin-left: 1rem;
-    position: relative;  
 }
 
 h3{
     font-size: 1rem;
-    align-self: flex-start;
-    position: relative;   
 }
 
 .informacoes{
@@ -50,5 +45,5 @@ h3{
     flex-direction: column;
     justify-content: space-around;
     padding: 1rem;
-    align-content: center;
+    align-items: center;
 }
