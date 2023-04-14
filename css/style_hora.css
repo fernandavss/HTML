@@ -51,14 +51,15 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     font-size: 2rem;
     padding: 2rem;
     margin-bottom:2rem;
     color:black;
     border: .1rem solid black;
     width: 10%;
-    margin-left: 5rem;
+    margin-left: 11rem;
+    
 }
 
 .escolheu{
@@ -68,5 +69,11 @@ h1{
 footer{
     position: absolute;
     right:40%;
-    padding: 3rem;
+
+    margin-left: 11rem;
+}
+
+a{
+    text-decoration: none;
+    color: black ;
 }
