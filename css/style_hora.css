@@ -4,6 +4,13 @@ html,body{
     color: white;
     font-family: 'Cabin', sans-serif;
 }
+
+header{
+    border-bottom: 0.01rem solid black;
+    background-color: rgb(255,147,60);
+    color:black;
+}
+
 main{
     position: relative;
     display: flex;
@@ -12,11 +19,6 @@ main{
 }
 
 
-header{
-    border-bottom: 0.01rem solid black;
-    background-color: rgb(201, 251, 125);
-    color:black;
-}
 
 .informacoes{
     display: flex;

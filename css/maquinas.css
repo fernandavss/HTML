@@ -7,8 +7,16 @@ html,body{
 
 header{
     border-bottom: 0.01rem solid black;
-    background-color: rgb(201, 251, 125);
+    background-color: rgb(255,147,60);
     color:black;
+}
+
+main{
+    width:100%;
+    height:100%;
+    padding-top: 3rem;
+    position: relative;
+    background-color: rgb(255,204,144);
 }
 
 .informacoes{
@@ -33,15 +41,14 @@ header{
     align-content: center;
 }
 
-main{
-    padding-top: 3rem;
-    position: relative;
-}
 
 
 .dia{
     border: 0.1rem solid black;
     color:black;
+    margin-left: 0.4rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
 }
 
 
@@ -82,7 +89,7 @@ h1{
     color:black;
     padding:3rem;
     font-size: 1.1rem;
-    background-color: rgb(201, 251, 125);
+    background-color: rgb(255,231,160);
 }
 
 footer{
