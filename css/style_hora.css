@@ -2,13 +2,13 @@ html,body{
     width:100%;
     height:100%;
     color: white;
+    font-family: 'Cabin', sans-serif;
 }
 main{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 
