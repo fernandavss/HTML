@@ -3,7 +3,6 @@ html,body{
     height:100%;
     color: white;
     font-family: 'Cabin', sans-serif;
-    background-color: rgb(255,204,144);
 }
 
 header{
@@ -73,10 +72,10 @@ h1{
 }
 
 footer{
+
     position: absolute;
     right:40%;
     margin-left: 11rem;
-    padding: ;
 }
 
 a{
