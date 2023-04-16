@@ -8,8 +8,14 @@ html,body{
 
 header{
     border-bottom: 0.01rem solid black;
-    background-color: rgb(201, 251, 125);
+    background-color: rgb(255,147,60);
     color:black;
+}
+
+main{
+    position: relative;
+    padding: 1rem;
+    background-color: rgb(255,204,144);
 }
 
 .informacoes{
@@ -34,15 +40,11 @@ header{
     align-content: center;
 }
 
-main{
-    position: relative;
-    margin: 1rem;
-    
-}
 p{
     color:black;
     padding-left: 3rem;
 }
+
 li{
     color: black;
     margin-bottom: 2rem;;
