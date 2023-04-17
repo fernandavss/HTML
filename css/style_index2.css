@@ -112,3 +112,8 @@ p {
     padding:1rem;
     font-size: 1.3rem;
 }
+
+.img_index {
+    width: 50%;
+    height: 50%;
+}
