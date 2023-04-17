@@ -12,7 +12,6 @@ header{
 }
 
 main{
-    height: 100%;
     position: relative;
     padding: 1rem;
     background-color: rgb(255,204,144);
