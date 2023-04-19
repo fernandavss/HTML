@@ -20,7 +20,9 @@ main{
     background-color: rgb(255,204,144);
 }
 
-
+h1 {
+    text-align: center;
+}
 
 .informacoes{
     display: flex;
@@ -60,10 +62,10 @@ h1{
     align-items: center;
     font-size: 2rem;
     padding: 2rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     color:black;
     border: .1rem solid black;
-    width: 10%;
+    width: 30%;
     background-color: rgb(255,231,160);
 }
 
@@ -72,10 +74,7 @@ h1{
 }
 
 footer{
-
-    position: absolute;
-    right:40%;
-    margin-left: 11rem;
+    text-align: center;
 }
 
 a{
