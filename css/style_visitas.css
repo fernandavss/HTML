@@ -63,3 +63,10 @@ h2{
     color:black;
     font-size: 1.5rem;
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255,204,144);
+    padding: 0.5rem;
+}
