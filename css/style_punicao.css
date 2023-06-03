@@ -67,10 +67,11 @@ h3{
 }
 
 .qrcode{
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom:2.5rem;
     
 }
 
@@ -79,10 +80,13 @@ h3{
 }
 
 footer {
-    background-color: rgb(255,204,144);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(255,204,144);
+    padding: 0.5rem;
+    margin-top: auto;
+    border-top: 0.01rem solid black;
     
 }
 .item {
@@ -90,9 +94,24 @@ footer {
     padding: 0.5rem;
 }
 
-.pesquisa {
+.resolução{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.chave{
+    word-break: break-all;
+}
+.img_index{
+    width: 3rem;
+    height: 3rem;
+}
+body {
+    background-color: rgb(255,204,144);
+    margin: 0;
+    padding: 0;
+}
+.tudo{
+    min-height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0.8rem;
+    flex-direction: column;
 }
