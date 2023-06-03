@@ -12,20 +12,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       })
     })
-  })
+})
 
 
- document.addEventListener('DOMContentLoaded', function() {
-    var input = document.getElementById('regra')
-    var botao = document.getElementById('botao')
-  
+document.addEventListener('DOMContentLoaded', function() {
+    input = document.getElementById('regra')
+    botao = document.getElementById('botao')
+    mensagem = document.getElementById('mensagem')
+
+    palavras = ['louça', 'Louça', 'LOUÇA', 'louças', 'Louças', 'LOUÇAS','visitas', 'Visitas', 'VISITAS', 'visita', 'Visita', 'VISITA','banheiro', 'Banheiro', 'BANHEIRO', 'banheiros', 'Banheiros', 'BANHEIROS','silêncio', 'Silêncio', 'SILÊNCIO', 'silêncios', 'Silêncios', 'SILÊNCIOS']
+
     botao.addEventListener('click', function(event) {
       event.preventDefault(); 
   
       var regra = input.value.trim()
       localStorage.setItem('regra', regra)
-  
-      window.location.href = 'pesquisa.html'
+
+      if(palavras.includes(regra)){
+      window.location.href = 'pesquisa.html'}
+      else{
+        mensagem.classList.remove('hidden')
+        input.value = ''
+        input.focus()
+      }
     })
   })
   
