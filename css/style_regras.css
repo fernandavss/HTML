@@ -5,6 +5,11 @@ html,body{
     font-family: 'Cabin', sans-serif;
     
 }
+body {
+    background-color: rgb(255,204,144);
+    margin: 0;
+    padding: 0;
+}
 
 header{
     border-bottom: 0.01rem solid black;
@@ -40,16 +45,6 @@ main{
     align-content: center;
 }
 
-p{
-    color:black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: 0.1rem solid black;
-    margin: 0 4rem 0;
-    padding: 0.2rem;
-}
-
 li{
     color: black;
     margin-bottom: 2rem;;
@@ -68,6 +63,26 @@ h1{
 h2{
     color:black;
     font-size: 1.5rem;
+    margin-top: 5rem;
+}
+h4{
+    color:black;
+    font-size: 1.5rem;
+}
+img{
+    width: 3rem;
+    height:3rem;
+}
+
+.primeiro{
+    color:black;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+}
+
+.ultimo{
+    color:black;
+    margin-bottom: 5rem;
 }
 
 footer{
@@ -76,5 +91,16 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: auto;
+    border-top: 0.01rem solid black;
 
 }
+.hidden{
+    display: none;
+}
+.tudo{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
