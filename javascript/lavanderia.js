@@ -18,10 +18,16 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 })
 
+document.addEventListener('DOMContentLoaded', function() {
+    lis = document.querySelectorAll('.opcaos li')
 
-
-
-
-
+    lis.forEach(function(li) {
+        li.addEventListener('click', function(event) {
+            opcao = event.target.innerText;
+            localStorage.setItem('opcao', opcao)
+            window.location.href = 'horarios.html'
+        })
+    })
+})
 
 
