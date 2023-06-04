@@ -17,20 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
           pessoa.remove()
         }
       } else {
-        nomeElementos = document.querySelectorAll('.pessoa')
+        nomes = document.querySelectorAll('.pessoa')
         let nomeCarolinaPresente = false
         
-        nomeElementos.forEach(function(elemento) {
+        nomes.forEach(function(elemento) {
           if (elemento.innerText === 'Carolina') {
             nomeCarolinaPresente = true
           }
         })
 
         if (!nomeCarolinaPresente) {
-          nomeElemento = document.createElement('p')
-          nomeElemento.classList.add('pessoa')
-          nomeElemento.innerText = 'Carolina'
-          escolha.appendChild(nomeElemento)
+          nome = document.createElement('p')
+          nome.classList.add('pessoa')
+          nome.innerText = 'Carolina'
+          escolha.appendChild(nome)
         }
       }
     })
