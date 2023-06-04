@@ -1,6 +1,6 @@
 body, html {
     height:100%;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -49,7 +49,7 @@ h1{
     justify-content: center;
     font-size: 2rem;
     padding: 2rem;
-}
+    font-family: 'Cabin', sans-serif;}
 
 ul{
     display: flex;

@@ -2,7 +2,7 @@ html,body{
     width:100%;
     height:100%;
     color: white;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 body {
@@ -57,6 +57,8 @@ h1{
     padding: 2rem;
     color:black;
     margin-bottom: 0.1rem solid black;
+    font-family: 'Cabin', sans-serif;
+
 }
 
 h2{
@@ -104,4 +106,6 @@ footer{
 h5{
     color:red;
     font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+
 }
