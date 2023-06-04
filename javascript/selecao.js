@@ -10,32 +10,22 @@ document.addEventListener('DOMContentLoaded', function() {
   
     escolhas.forEach(function(escolha) {
       escolha.addEventListener('click', function(event) {
-        var possuiPessoa = escolha.classList.contains('pessoa')
-        var pessoaElemento = escolha.querySelector('.pessoa')
+        pessoaElemento = escolha.querySelector('.pessoa')
   
-        if (!possuiPessoa) {
-          var outrasEscolhas = document.querySelectorAll('.escolheu.pessoa')
-  
-          if (outrasEscolhas.length > 0) {
-            outrasEscolhas.forEach(function(outraEscolha) {
-              outraEscolha.classList.remove('pessoa')
-              pessoaElemento = outraEscolha.querySelector('.pessoa')
-              if (pessoaElemento) {
-                pessoaElemento.remove()
-              }
-            })
+        if (pessoaElemento) {
+          if (pessoaElemento.innerText === 'Carolina') {
+            pessoaElemento.remove()
           }
-  
-          novaPessoaElemento = document.createElement('p')
-          novaPessoaElemento.classList.add('pessoa')
-          novaPessoaElemento.innerHTML = 'carolina'
-          escolha.appendChild(novaPessoaElemento)
-          escolha.classList.add('pessoa')
         } else {
-          pessoaElemento.remove();
-          escolha.classList.remove('pessoa')
+          nomeElemento = document.createElement('p')
+          nomeElemento.classList.add('pessoa')
+          nomeElemento.innerText = 'Carolina'
+          escolha.appendChild(nomeElemento)
         }
       })
     })
   })
+  
+  
+  
   
