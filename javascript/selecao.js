@@ -6,25 +6,37 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 document.addEventListener('DOMContentLoaded', function() {
-    var escolhas = document.querySelectorAll('.escolheu')
-  
-    escolhas.forEach(function(escolha) {
-      escolha.addEventListener('click', function(event) {
-        pessoaElemento = escolha.querySelector('.pessoa')
-  
-        if (pessoaElemento) {
-          if (pessoaElemento.innerText === 'Carolina') {
-            pessoaElemento.remove()
+  escolhas = document.querySelectorAll('.escolheu')
+
+  escolhas.forEach(function(escolha) {
+    escolha.addEventListener('click', function(event) {
+      pessoa = escolha.querySelector('.pessoa')
+
+      if (pessoa) {
+        if (pessoa.innerText === 'Carolina') {
+          pessoa.remove()
+        }
+      } else {
+        nomeElementos = document.querySelectorAll('.pessoa')
+        let nomeCarolinaPresente = false
+        
+        nomeElementos.forEach(function(elemento) {
+          if (elemento.innerText === 'Carolina') {
+            nomeCarolinaPresente = true
           }
-        } else {
+        })
+
+        if (!nomeCarolinaPresente) {
           nomeElemento = document.createElement('p')
           nomeElemento.classList.add('pessoa')
           nomeElemento.innerText = 'Carolina'
           escolha.appendChild(nomeElemento)
         }
-      })
+      }
     })
   })
+})
+
   
   
   
